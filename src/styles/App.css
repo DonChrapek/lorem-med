@@ -3,8 +3,13 @@ body {
   background: #fff;
 }
 
-h1, h2, h3, h4, h5, h6 { margin: 0 }
+h1, h2, h3, h4, h5, h6, ul, li { margin: 0 }
 
 #main-header {
     width: 100%;
+    padding: 100px 0;
+}
+
+#sign-in, #sign-up {
+    float: right;
 }

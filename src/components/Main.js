@@ -1,4 +1,4 @@
-require('normalize.css/normalize.css');
+require('styles/reset.css');
 require('styles/App.css');
 
 // Libraries
@@ -8,6 +8,10 @@ import { BrowserRouter, Route } from 'react-router-dom';
 // Components
 import Header from './Header';
 import Home from './Home';
+import Locations from './Locations';
+import Team from './Team';
+import Blog from './Blog';
+import Appointments from './Appointments';
 
 class AppComponent extends React.Component {
   render() {
@@ -15,7 +19,11 @@ class AppComponent extends React.Component {
       <BrowserRouter>
         <div id='app-content'>
           <Header />
-          <Route path='/' component={Home} />
+          <Route exact path='/' component={Home} />
+          <Route path='/locations' component={Locations} />
+          <Route path='/team' component={Team} />
+          <Route path='/blog' component={Blog} />
+          <Route path='/appointments' component={Appointments} />
         </div>
       </BrowserRouter>
     );

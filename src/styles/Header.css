@@ -1,13 +1,16 @@
-
+#header-content {
+    padding: 0 40px;
+}
 
 .navigation {    
     list-style-type: none;
     text-transform: uppercase;
+    padding: 0;
 }
 
 .navigation-item {
     display: inline-block;
+    margin: 0 1em 0 0;
     text-decoration: none;
     color: black;
-    margin: 0 1em 0 0;
 }
