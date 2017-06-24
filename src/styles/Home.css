@@ -62,7 +62,7 @@
 
 
 #recent-blog .section-content {
-    padding: 20px 10vw;
+    padding: 0 10vw 20px 10vw;
 }
 
 #recent-blog article {
@@ -71,10 +71,20 @@
 
 #recent-blog article .article-img {
     width: 100%;
+    overflow: hidden;
 }
 
 #recent-blog article .article-img img {
-    max-width: 100%;
+    width: 100%;
+    -moz-transition:-moz-transform 0.25s ease-in; 
+    -webkit-transition:-webkit-transform 0.25s ease-in; 
+    -o-transition:-o-transform 0.25s ease-in;
+}
+
+#recent-blog article .article-img img:hover {
+    -moz-transform:scale(1.05); 
+    -webkit-transform:scale(1.05);
+    -o-transform:scale(1.05);
 }
 
 #recent-blog .article-title {

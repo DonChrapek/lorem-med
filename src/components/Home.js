@@ -48,23 +48,23 @@ const Home = () => {
               </span>
               <Link to='/blog' className='article-more'>Read more...</Link>
             </article>
-            <article className='third-part'>     
+            <article className='third-part'>
               <div className='article-img'>
                 <Link to='/blog'><img src='../images/blog/article1.jpg' alt='Lorem ipsum' /></Link>
-              </div>         
+              </div>
               <h4 className='article-title'>Lorem ipsum</h4>
               <span className='article-content'>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.        
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
               </span>
               <Link to='/blog' className='article-more'>Read more...</Link>
             </article>
-            <article className='third-part'> 
+            <article className='third-part'>
               <div className='article-img'>
                 <Link to='/blog'><img src='../images/blog/article1.jpg' alt='Lorem ipsum' /></Link>
-              </div>             
+              </div>
               <h4 className='article-title'>Lorem ipsum</h4>
               <span className='article-content'>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.    
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
               </span>
               <Link to='/blog' className='article-more'>Read more...</Link>
             </article>

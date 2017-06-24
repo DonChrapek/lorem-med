@@ -21,13 +21,13 @@ const Footer = () => {
             <div id='footer-contact-data' className='half-part'>
               <h4>Lorem Med ltd.</h4>
               <span>
-                Street: Lorem Ave. 158<br/>
-                City: 96029 Lipsm <br/>
+                Lorem Ave. 158<br/>
+                96029 Lipsum <br/>
                 Phone: 44 2242 212 3<br/>
                 E-mail: <a href='mailto: lorem@med.uk'>lorem@med.uk</a>
               </span>
             </div>
-          </div>          
+          </div>
         </section>
         <div id='copy'>
           <span>Daniel Chrapczynski &copy;2017</span>
