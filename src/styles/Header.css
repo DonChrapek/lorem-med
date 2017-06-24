@@ -1,0 +1,13 @@
+
+
+.navigation {    
+    list-style-type: none;
+    text-transform: uppercase;
+}
+
+.navigation-item {
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+    margin: 0 1em 0 0;
+}
