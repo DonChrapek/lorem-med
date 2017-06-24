@@ -7,7 +7,15 @@ const Header = () => {
     return (
       <header id='main-header'>
         <div id='header-content'>
-            <h1> Hello! It's Header </h1>
+          <div id='header-logo'>
+            <div className='logo-img-container'>
+              <img src='../images/logo.png' alt='logo' id='header-logo-img' />
+            </div>
+            <div className='logo-text-container'>
+              <h1>Lorem Med</h1>
+              <h3>We'll ipsum your disease</h3>
+            </div>
+          </div>
             <nav id='navbar'>
               <ul className='navigation'>
                 <Link to='/' className='navigation-item'><li>Home</li></Link>

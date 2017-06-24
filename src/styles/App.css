@@ -1,15 +1,64 @@
+* { box-sizing: border-box }
+
 body {
   color: #000;
   background: #fff;
+  font-size: 16px;
 }
 
 h1, h2, h3, h4, h5, h6, ul, li { margin: 0 }
+  
+h1 { font-size: 4em; }
+h2 { font-size: 3em; }
+h3 { font-size: 1.8em; }
+
+a { text-decoration: none; }
+
+button {
+    background-color: transparent;
+    border: 0;
+    padding: 10px 15px;
+    cursor: pointer;
+}
+
+.btn-rounded {
+    border-radius: 6px;
+}
+
+.btn-white {
+    background-color: #fff;
+}
+
+.btn-blue {
+    background-color: #0089c9;
+    color: white;
+}
+
+.block {
+    display: block;
+}
+
+.centered {
+    margin: 0 auto;
+}
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+.third-div {
+    display: inline-block;
+    width: 33.3333%;
+}
+
+.content-centered {
+    text-align: center;
+}
 
 #main-header {
-    width: 100%;
-    padding: 100px 0;
+  width: 100%;
 }
 
 #sign-in, #sign-up {
-    float: right;
+  float: right;
 }
