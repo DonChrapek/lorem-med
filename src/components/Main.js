@@ -12,6 +12,7 @@ import Locations from './Locations';
 import Team from './Team';
 import Blog from './Blog';
 import Appointments from './Appointments';
+import Footer from './Footer';
 
 class AppComponent extends React.Component {
   render() {
@@ -24,6 +25,7 @@ class AppComponent extends React.Component {
           <Route path='/team' component={Team} />
           <Route path='/blog' component={Blog} />
           <Route path='/appointments' component={Appointments} />
+          <Footer />
         </div>
       </BrowserRouter>
     );

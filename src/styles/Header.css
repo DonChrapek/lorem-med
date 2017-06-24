@@ -26,7 +26,7 @@
 
 .navigation-item {
     display: inline-block;
-    margin: 0 1em 0 0;
+    margin: 0 1.3em 0 0;
     padding-bottom: 20px;
     text-decoration: none;
     color: black;
@@ -35,6 +35,10 @@
 .navigation-item:hover {
     padding-bottom: 16px;
     border-bottom: 4px solid blue;
+}
+
+#sign-up, #sign-in {
+    transform: translateY(-25%);
 }
 
 #sign-up:hover, #sign-in:hover {
