@@ -51,18 +51,19 @@ button {
     text-transform: uppercase;
 }
 
-.half-div {
+.half-part {
     display: inline-block;
     width: 50%;
 }
 
-.third-div {
+.third-part {
     display: inline-block;
     width: 33.3333%;
 }
 
 .content-centered {
     text-align: center;
+    margin: 0 auto;
 }
 
 #main-header {
