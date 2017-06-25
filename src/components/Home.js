@@ -10,35 +10,35 @@ const Home = () => {
           <div className='main-banner-content'>
             <span>Access anytime and anywhere</span>
             <h3>Lorem ipsum sit amet dolor</h3>
-            <div className='third-part content-centered'>
+            <div className='third-wide content-centered'>
               <h3>Locations</h3>
               <span>Find our all locations</span>
               <Link to='/locations'>
-                <button className='btn-blue block centered uppercase btn-rounded'>Get directions</button>
+                <button className='btn-blue block centered-block uppercase btn-rounded'>Get directions</button>
               </Link>
             </div>
-            <div className='third-part content-centered'>
+            <div className='third-wide content-centered'>
               <h3>Our team</h3>
               <span>Find by name, specialization</span>
               <Link to='/team'>
-                <button className='btn-blue block centered uppercase btn-rounded'>Find a doctor</button>
+                <button className='btn-blue block centered-block uppercase btn-rounded'>Find a doctor</button>
               </Link>
             </div>
-            <div className='third-part content-centered'>
+            <div className='third-wide content-centered'>
               <h3>Appointments</h3>
               <span>Make or manage your appointments</span>
               <Link to='/appointments'>
-                <button className='btn-blue block centered uppercase btn-rounded'>Appointments</button>
+                <button className='btn-blue block centered-block uppercase btn-rounded'>Appointments</button>
               </Link>
             </div>
           </div>
         </section>
         <section id='recent-blog'>
-          <div className='section-title content-centered'>
+          <div className='section-title centered'>
             <h3>Recent articles</h3>
           </div>
           <div className='section-content'>
-            <article className='third-part'>
+            <article className='third-wide'>
               <div className='article-img'>
                 <Link to='/blog'><img src='../images/blog/article1.jpg' alt='Lorem ipsum' /></Link>
               </div>
@@ -48,7 +48,7 @@ const Home = () => {
               </span>
               <Link to='/blog' className='article-more'>Read more...</Link>
             </article>
-            <article className='third-part'>
+            <article className='third-wide'>
               <div className='article-img'>
                 <Link to='/blog'><img src='../images/blog/article1.jpg' alt='Lorem ipsum' /></Link>
               </div>
@@ -58,7 +58,7 @@ const Home = () => {
               </span>
               <Link to='/blog' className='article-more'>Read more...</Link>
             </article>
-            <article className='third-part'>
+            <article className='third-wide'>
               <div className='article-img'>
                 <Link to='/blog'><img src='../images/blog/article1.jpg' alt='Lorem ipsum' /></Link>
               </div>

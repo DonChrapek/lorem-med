@@ -35,20 +35,20 @@
     margin-bottom: 15px;
 }
 
-.main-banner-content .third-part {
+.main-banner-content .third-wide {
     padding-top: 30px;  
     border-right: 1px solid black;
 }
 
-.main-banner-content .third-part:last-child {
+.main-banner-content .third-wide:last-child {
     border: 0;
 }
 
-.main-banner-content .third-part h3 {
+.main-banner-content .third-wide h3 {
     margin-bottom: 7px;
 }
 
-.main-banner-content .third-part button {
+.main-banner-content .third-wide button {
     margin-top: 25px;
 }
 

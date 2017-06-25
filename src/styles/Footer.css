@@ -1,7 +1,7 @@
 #contact {
     background-color: #444;
     text-align: center;
-    height: 330px;
+    height: 400px;
     color: white;
     padding: 30px 10vw;
 }
@@ -10,56 +10,24 @@
     position: relative;
 }
 
-#footer-contact-form {    
-    position: absolute;
-    top: 0;
-    float: left;
-    left: 0;
-}
-
-#footer-contact-data {    
-    position: absolute;
-    top: 0;
-    float: right;
-    right: 0;
-    text-align: left;
-    padding-left: 70px;
-}
-
-#footer-contact-data h4 {
-    margin-bottom: 1em;
-}
-
-#footer-contact-data span {
-    line-height: 1.2em;
-}
-
-#footer-contact-data span a {
-    text-decoration: none;
-    color: white;
-}
-
-#footer-contact-data span a:hover {
-    color: #0089c9;
-    text-decoration: underline;
-}
-
 #contact input {
     margin: 0;
-    width: 320px;
+    width: 50%;
     height: 2em;
     padding: 0 0.7em;
 }
 
 #contact input[type="submit"] {
+    height: 3em;
     border: 0; 
 }
 
 #contact textarea {
     margin: 0;
-    width: 320px;
-    height: 7em;
+    width: 50%;
+    height: 10em;
     padding: 0.2em 0.7em;
+    resize: none;
 }
 
 #copy {
