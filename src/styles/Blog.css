@@ -1,0 +1,23 @@
+#blog {
+    padding: 20px 15vw;
+}
+
+#blog .recent-article {
+    display: block;
+    width: 100%;
+}
+
+.main-article-content {
+    display: inline-block;
+    max-width: 25%;
+}
+
+.main-article-img img {
+    display: inline-block;
+    width: 50%;
+}
+
+#blog .standard-article {
+    display: inline-block;
+    width: 50%;
+}

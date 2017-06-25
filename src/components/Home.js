@@ -46,7 +46,6 @@ const Home = () => {
               <span className='article-content'>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
               </span>
-              <Link to='/blog' className='article-more'>Read more...</Link>
             </article>
             <article className='third-wide'>
               <div className='article-img'>
@@ -56,7 +55,6 @@ const Home = () => {
               <span className='article-content'>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
               </span>
-              <Link to='/blog' className='article-more'>Read more...</Link>
             </article>
             <article className='third-wide'>
               <div className='article-img'>
@@ -66,8 +64,10 @@ const Home = () => {
               <span className='article-content'>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
               </span>
-              <Link to='/blog' className='article-more'>Read more...</Link>
             </article>
+          </div>
+          <div className='centered'>
+            <Link to='/blog'><button className='btn-blue btn-rounded uppercase btn-big'>Visit our blog</button></Link>
           </div>
         </section>
       </section>

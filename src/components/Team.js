@@ -8,7 +8,6 @@ const Team = () => {
         <div className='section-title centered'>
           <h3>Meet our fantastic team!</h3>
         </div>
-        
       </section>
     );
 }

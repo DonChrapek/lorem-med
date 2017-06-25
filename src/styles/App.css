@@ -44,6 +44,11 @@ button {
     color: white;
 }
 
+.btn-big {
+    font-size: 1.3em;
+    padding: 15px 25px;
+}
+
 .block {
     display: block;
 }

@@ -1,9 +1,16 @@
+import '../styles/Blog.css';
+
 import React from 'react';
 
 const Blog = () => {
     return (
       <section id='blog'>
-        <h2> Blog section </h2>
+        <div className='section-title centered'>
+          <h3>Blog</h3>
+        </div>
+        <article id='' className='recent-article'>
+          
+        </article>
       </section>
     );
 }
