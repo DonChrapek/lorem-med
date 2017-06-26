@@ -6,6 +6,10 @@ body {
   font-size: 16px;
 }
 
+.clearfix {
+    clear: both;
+}
+
 h1, h2, h3, h4, h5, h6, ul, li { 
     margin-top: 0;
     margin-bottom: 0;

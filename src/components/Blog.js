@@ -9,60 +9,79 @@ const Blog = () => {
         <div className='centered section-title'>
           <h3>Recent articles</h3>
         </div>
-        <article className='half-wide'>
-          <div className='article-img'>
-                <Link to='/blog'><img src='../images/blog/article1.jpg' alt='Lorem ipsum' /></Link>
-              </div>
-              <h4 className='article-title'>Lorem ipsum</h4>
-              <span className='article-content'>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-              </span>
-        </article>
-        <article className='half-wide'>
-          <div className='article-img'>
-                <Link to='/blog'><img src='../images/blog/article1.jpg' alt='Lorem ipsum' /></Link>
-              </div>
-              <h4 className='article-title'>Lorem ipsum</h4>
-              <span className='article-content'>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-              </span>
-        </article>
-        <article className='half-wide'>
-          <div className='article-img'>
-                <Link to='/blog'><img src='../images/blog/article1.jpg' alt='Lorem ipsum' /></Link>
-              </div>
-              <h4 className='article-title'>Lorem ipsum</h4>
-              <span className='article-content'>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-              </span>
-        </article>
-        <article className='half-wide'>
-          <div className='article-img'>
-                <Link to='/blog'><img src='../images/blog/article1.jpg' alt='Lorem ipsum' /></Link>
-              </div>
-              <h4 className='article-title'>Lorem ipsum</h4>
-              <span className='article-content'>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-              </span>
-        </article>
-        <article className='half-wide'>
-          <div className='article-img'>
-                <Link to='/blog'><img src='../images/blog/article1.jpg' alt='Lorem ipsum' /></Link>
-              </div>
-              <h4 className='article-title'>Lorem ipsum</h4>
-              <span className='article-content'>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-              </span>
-        </article>
-        <article className='half-wide'>
-          <div className='article-img'>
-                <Link to='/blog'><img src='../images/blog/article1.jpg' alt='Lorem ipsum' /></Link>
-              </div>
-              <h4 className='article-title'>Lorem ipsum</h4>
-              <span className='article-content'>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-              </span>
-        </article>
+            <div className='blog-row'>
+              <Link to='/blog'>
+                <figure className='slide-up-effect'>
+                  <img src='../images/blog/article1.jpg' alt='Lorem ipsum' />
+                  <figcaption>
+                    <div>
+                      <h3>Lorem ipsum</h3>
+                    <p>Date: 26.06.2017</p>
+                    </div>
+                  </figcaption>
+                </figure>
+              </Link>
+              <Link to='/blog'>
+                <figure className='slide-up-effect'>
+                  <img src='../images/blog/article1.jpg' alt='Lorem ipsum' />
+                  <figcaption>
+                    <div>
+                      <h3>Lorem ipsum</h3>
+                    <p>Date: 26.06.2017</p>
+                    </div>
+                  </figcaption>
+                </figure>
+              </Link>
+            </div>
+            <div className='blog-row'>
+              <Link to='/blog'>
+                <figure className='slide-up-effect'>
+                  <img src='../images/blog/article1.jpg' alt='Lorem ipsum' />
+                  <figcaption>
+                    <div>
+                      <h3>Lorem ipsum</h3>
+                    <p>Date: 26.06.2017</p>
+                    </div>
+                  </figcaption>
+                </figure>
+              </Link>
+              <Link to='/blog'>
+                <figure className='slide-up-effect'>
+                  <img src='../images/blog/article1.jpg' alt='Lorem ipsum' />
+                  <figcaption>
+                    <div>
+                      <h3>Lorem ipsum</h3>
+                    <p>Date: 26.06.2017</p>
+                    </div>
+                  </figcaption>
+                </figure>
+              </Link>
+            </div>
+            <div className='blog-row'>
+              <Link to='/blog'>
+                <figure className='slide-up-effect'>
+                  <img src='../images/blog/article1.jpg' alt='Lorem ipsum' />
+                  <figcaption>
+                    <div>
+                      <h3>Lorem ipsum</h3>
+                    <p>Date: 26.06.2017</p>
+                    </div>
+                  </figcaption>
+                </figure>
+              </Link>
+              <Link to='/blog'>
+                <figure className='slide-up-effect'>
+                  <img src='../images/blog/article1.jpg' alt='Lorem ipsum' />
+                  <figcaption>
+                    <div>
+                      <h3>Lorem ipsum</h3>
+                    <p>Date: 26.06.2017</p>
+                    </div>
+                  </figcaption>
+                </figure>
+              </Link>
+            </div>
+        <div className='clearfix'></div>
       </section>
     );
 }

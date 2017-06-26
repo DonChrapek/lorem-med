@@ -1,8 +1,73 @@
 #blog {
-    padding: 20px 15vw;
+    padding: 10px 15vw 100px 15vw;
 }
 
-#blog article {
-    padding: 20px 40px;
-    margin-bottom: 30px;
+.blog-row {
+    width: 100%;
 }
+
+
+/* HOVER EFFECT */
+.slide-up-effect {
+    position: relative;
+    float: left;
+    overflow: hidden;
+    min-width: 320px;
+    max-width: 480px;
+    width: 44%;
+    margin: 20px 3%;
+}
+
+.slide-up-effect img {
+    position: relative;
+    min-height: 100%;
+    max-width: 100%;
+    opacity: 0.9;
+}
+
+.slide-up-effect figcaption {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    color: #fff;
+    text-shadow: 1px 1px #000;
+    text-transform: uppercase;
+}
+
+.slide-up-effect figcaption div {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 45%;
+    padding-left: 2em;
+}
+
+.slide-up-effect figcaption p {
+    visibility: hidden;
+}
+
+.slide-up-effect figcaption h3, .slide-up-effect figcaption p {
+    transform: translateY(40px);
+    margin-right: 2em;
+}
+
+.slide-up-effect:hover img {
+    opacity: 1;
+    transform: scale(1.05);
+    transition: 0.4s;
+}
+
+.slide-up-effect:hover figcaption h3 {
+    transform: translateY(0);
+    transition: 0.4s;
+}
+
+.slide-up-effect:hover figcaption p {
+    visibility: visible;
+    transform: translateY(0);
+    transition: 0.4s;
+}
+
+/* HOVER EFFECT STOP */
